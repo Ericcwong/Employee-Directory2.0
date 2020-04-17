@@ -5,7 +5,7 @@ This application was the first MERN (MongoDB, Express, React, NodeJS) applicatio
 Some being the delete function for removing employees, have the drop box for select to show the proper roles or employees,properly connecting the backend to the front end, and overall the React side clarification (being wording and making things more DRY).
 
 <a href = "https://github.com/Ericcwong/Employee-Directory"><img src ="readMe/images/githubLogo.png"> Github</a> Link <br><br>
-<img src = "readMe/images/herokuLogo.png"> Currently unavailable
+<a href ="https://ericcwong-employee-directory.herokuapp.com/"><img src = "readMe/images/herokuLogo.png"> Heroku</a> Link
 
 # Purpose
 Employee Directory is an application that allows the manager manage their staff. You are able to add new staff to the current roaster and or find quick information about current employees.
