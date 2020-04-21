@@ -30,9 +30,6 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://ericcwong:password1@ds137
 () => console.log("Connected to MongoDB!")
 );
 
-
-
-
 //Starts the server
 app.listen(PORT, () =>{
     console.log(`Currently listening to http://localhost:${PORT}`)
