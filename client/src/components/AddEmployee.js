@@ -43,7 +43,7 @@ export default class AddEmployee extends Component {
           };
         console.log(employee);
 
-        axios.post("http://localhost:3001/api/employees", employee)
+        axios.post("https://ericcwong-employee-directory.herokuapp.com/api/employees", employee)
           .then(res => console.log(res.data));
 
     }
