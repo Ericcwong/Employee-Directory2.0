@@ -2,7 +2,7 @@ const router = require("express").Router();
 const Employee = require("../models/employee.models");
 
 //Creates an Employee (Create)
-router.route("https://ericcwong-employee-directory.herokuapp.com/api/employees").post((req,res) => {
+router.route("/api/employees").post((req,res) => {
     let firstName = req.body.firstName;
     let lastName = req.body.lastName;
     let email = req.body.email;
@@ -24,7 +24,7 @@ router.route("https://ericcwong-employee-directory.herokuapp.com/api/employees")
 });
 
 //Finds all Employees (Read)
-router.route("https://ericcwong-employee-directory.herokuapp.com/api/employees").get((req,res) => {
+router.route("/api/employees").get((req,res) => {
     Employee.find({})
         .then(employees => res.json(employees))
         .catch(err => res.status(400).json(`Error:${err}`));
