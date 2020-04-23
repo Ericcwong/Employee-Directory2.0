@@ -24,8 +24,7 @@ export default class AddEmployee extends Component {
             [name]: value
         });
     };
-    handleFormSubmit = event =>{
-        event.preventDefault();
+    handleFormSubmit = () =>{
         if(!this.state.firstName || !this.state.lastName){
             alert("Please enter a first and last name.")
         }else if (!this.state.email){
